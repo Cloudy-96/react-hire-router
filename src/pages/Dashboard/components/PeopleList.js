@@ -17,7 +17,6 @@ function PeopleList(props) {
       {people != undefined ? people.map((person, index) => (
           <PeopleListItem key={index} person={person} />
         )) : ""}
-
     </ul>
   )
 }
