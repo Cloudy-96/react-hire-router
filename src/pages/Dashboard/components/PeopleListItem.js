@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react"
-import Dashboard from "./pages/Dashboard"
 
 import {Link} from 'react-router-dom'
 
@@ -14,7 +13,7 @@ function PeopleListItem(props) {
       </h3>
       {person.wage && <p>Wage: £{person.wage}</p>}
      
-      <Link to={"/view/:id"} state={{ person }}>See Profile</Link>
+      <Link to={`/view/:${person.id.value}`} state={{ person }}>See Profile</Link>
     </li>
 
   )

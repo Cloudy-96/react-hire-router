@@ -18,7 +18,7 @@ export default function App() {
           </ul>
         </nav>
         <Routes>
-          <Route path="/view/:id " element={<Dashboard />}/>
+          <Route path="/ " element={<Dashboard />}/>
         </Routes>
       </header>
     </>
