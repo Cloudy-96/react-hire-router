@@ -4,8 +4,7 @@ import PeopleListItem from "./PeopleListItem"
 
 function PeopleList(props) {
   const { people } = props
-  const { setPeople } = props
-
+  
   console.log("people in array", people)
   
   return (
